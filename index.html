@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Kavi Bhushan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Kavi Bhushan</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <img src="images/kavi.jpeg" alt="Kavi Bhushan" class="profile-img" />
+    <div class="intro">
+      <h2>Hello, I'm <span>Kavi Bhushan</span></h2>
+      <p>Assistant Professor at SCRIET, Chaudhary Charan Singh University, Meerut.</p>
+      <button onclick="scrollToSection('contact')">Get in Touch</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am <strong>Dr. Kavi Bhushan</strong>, currently working as an <strong>Assistant Professor</strong> in the Department of Computer Science, SCRIET, CCS University, Meerut.
+      With over 15 years of teaching experience, I specialize in Computer Science and Engineering, focusing on Machine Learning, Data Analytics, and Emerging Technologies.
+    </p>
+
+    <ul>
+      <li><strong>Date of Birth:</strong> 20 August 1980</li>
+      <li><strong>Nationality:</strong> Indian</li>
+      <li><strong>Marital Status:</strong> Married</li>
+      <li><strong>Email:</strong> kavybhushan@gmail.com</li>
+      <li><strong>Phone:</strong> 9808621707</li>
+      <li><strong>Address:</strong> H.N.-248/D, Ramnagar, Kanakarkhera, Meerut (U.P.) - 250001</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-card">
+      <h3>Ph.D. (Computer Science & Engineering)</h3>
+      <p>NIT Uttarakhand, 2025</p>
+    </div>
+    <div class="edu-card">
+      <h3>M.Tech (Computer Science & Engineering)</h3>
+      <p>Swami Vivekanand Subharti University, Meerut — 2015 (69.12%)</p>
+    </div>
+    <div class="edu-card">
+      <h3>M.Sc (Information Technology)</h3>
+      <p>KSOU, Mysore — 2010 (84.12%)</p>
+    </div>
+    <div class="edu-card">
+      <h3>B.Tech (Computer Science & IT)</h3>
+      <p>CCS University, Meerut — 2006 (61.78%)</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <p><strong>Assistant Professor</strong> at SCRIET, CCS University Meerut (Since July 2007)</p>
+    <ul>
+      <li>Library In-charge & Proctorial Board Member</li>
+      <li>Assistant Controller (M.A. Private Evaluation)</li>
+      <li>Sports Committee Member (Table Tennis In-charge, Khelotsav-2022)</li>
+      <li>Over 15 years of teaching and mentoring students in Computer Science.</li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>Research & Professional Development</h2>
+    <ul>
+      <li>FDP: Big Data and Analytics (NIT Jalandhar, April 2023)</li>
+      <li>STC: Machine Learning and Data Analytics Using Python (NIT Jalandhar, May–June 2023)</li>
+      <li>Editor (Book): “Integrated Devices for AI and VLSI”, Wiley & Scrivener, 2023</li>
+      <li>Area of Interest: Machine Learning, Big Data, Biometrics, Data Analytics</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" onsubmit="sendMessage(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Kavi Bhushan | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
